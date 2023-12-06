@@ -8,7 +8,7 @@ class ObjectiveWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Objectif : Développeur Flutter',
+          'Développeur Dotnet\n',
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
         ),
       ],

@@ -1,4 +1,3 @@
-// education.dart
 import 'package:flutter/material.dart';
 
 class EducationWidget extends StatelessWidget {
@@ -8,11 +7,23 @@ class EducationWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Éducation :',
+          'Éducation :\n',
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         Text(
-          'Master en Informatique, Université XYZ',
+          'Master architecture des logiciels ESGI, 3 ans \n',
+          style: TextStyle(fontSize: 16, color: Colors.white),
+        ),
+        Text(
+          'Epitech, 2ans \n',
+          style: TextStyle(fontSize: 16, color: Colors.white),
+        ),
+        Text(
+          'Bac pro commerce, Lycée Jehanne D\'Arc\n',
+          style: TextStyle(fontSize: 16, color: Colors.white),
+        ),
+        Text(
+          'Bac pro comptabilité, Lycée EIC \n',
           style: TextStyle(fontSize: 16, color: Colors.white),
         ),
       ],

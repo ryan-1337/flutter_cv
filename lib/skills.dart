@@ -1,4 +1,3 @@
-// skills.dart
 import 'package:flutter/material.dart';
 
 class SkillsWidget extends StatelessWidget {
@@ -21,11 +20,12 @@ class SkillsWidget extends StatelessWidget {
 class SkillsListWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Liste de compétences
     List<Map<String, dynamic>> skillsList = [
-      {'skill': 'Flutter', 'progress': 0.8},
-      {'skill': 'Dart', 'progress': 0.7},
-      // Ajoutez d'autres compétences avec leurs niveaux de progression ici
+      {'skill': 'Flutter', 'progress': 0.2},
+      {'skill': 'Dart', 'progress': 0.3},
+      {'skill': 'PHP', 'progress': 0.7},
+      {'skill': 'Javascript', 'progress': 0.5},
+      {'skill': 'C#', 'progress': 0.6},
     ];
 
     return ListView.builder(
@@ -33,7 +33,12 @@ class SkillsListWidget extends StatelessWidget {
       itemCount: skillsList.length,
       itemBuilder: (BuildContext context, int index) {
         return ListTile(
-          title: Text(skillsList[index]['skill']),
+          title: Text(
+            skillsList[index]['skill'],
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
           subtitle: LinearProgressIndicator(
             value: skillsList[index]['progress'],
             backgroundColor: Colors.grey[300],

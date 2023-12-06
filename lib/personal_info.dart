@@ -1,4 +1,3 @@
-// personal_info.dart
 import 'package:flutter/material.dart';
 
 class PersonalInfoWidget extends StatelessWidget {
@@ -8,11 +7,11 @@ class PersonalInfoWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Nom Prénom',
+          'Ryan A.\n',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         Text(
-          'Adresse',
+          '5 Boulevard wall street\n',
           style: TextStyle(fontSize: 16, color: Colors.white),
         ),
       ],

@@ -1,4 +1,3 @@
-// experience.dart
 import 'package:flutter/material.dart';
 
 class ExperienceWidget extends StatelessWidget {
@@ -8,11 +7,15 @@ class ExperienceWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Expérience Professionnelle :',
+          'Expérience Professionnelle :\n',
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         Text(
-          'Développeur Flutter, Entreprise ABC',
+          'Développeur Java, Provost \n Développer un logiciel d\'aide au devis pour l\'entreprise \n 2 ans \n',
+          style: TextStyle(fontSize: 16, color: Colors.white),
+        ),
+        Text(
+          'Développeur Dotnet, Axa \n 2 ans',
           style: TextStyle(fontSize: 16, color: Colors.white),
         ),
       ],

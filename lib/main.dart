@@ -1,4 +1,3 @@
-// main.dart
 import 'package:flutter/material.dart';
 import 'cv.dart';
 
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        secondaryHeaderColor: Colors.grey, // ou colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.deepOrangeAccent)
+        secondaryHeaderColor: Colors.grey,
         scaffoldBackgroundColor: Colors.black,
       ),
       home: MyCV(),

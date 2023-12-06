@@ -1,4 +1,3 @@
-// cv.dart
 import 'package:flutter/material.dart';
 import 'photo.dart';
 import 'personal_info.dart';
@@ -12,7 +11,7 @@ class MyCV extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Mon CV'),
+        title: Text('Ryan\'s CV'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -21,19 +20,19 @@ class MyCV extends StatelessWidget {
           children: [
             // Left Section
             Container(
-              width: 200, // Adjust the width as needed
+              width: 200,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  PersonalInfoWidget(),
+                  SizedBox(height: 16),
                   PhotoWidget(),
                   SizedBox(height: 16),
                   SkillsWidget(),
-                  SizedBox(height: 16),
-                  PersonalInfoWidget(),
                 ],
               ),
             ),
-            SizedBox(width: 30), // Add some spacing between the two sections
+            SizedBox(width: 30),
             // Right Section
             Expanded(
               child: Column(

@@ -1,4 +1,3 @@
-// photo.dart
 import 'package:flutter/material.dart';
 
 class PhotoWidget extends StatelessWidget {
@@ -7,7 +6,7 @@ class PhotoWidget extends StatelessWidget {
     return Center(
       child: CircleAvatar(
         radius: 50,
-        backgroundImage: AssetImage('assets/photo.jpg'),
+        backgroundImage: AssetImage('assets/photo.png'),
       ),
     );
   }
